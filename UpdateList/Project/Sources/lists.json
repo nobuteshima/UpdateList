@@ -1,0 +1,27 @@
+{
+	"送付先住所": {
+		"editable": true,
+		"items": [
+			{
+				"text": "東京都千代田区",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "東京都渋谷区",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "東京都台東区",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "神奈川県横浜市",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	}
+}

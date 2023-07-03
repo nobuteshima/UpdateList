@@ -1,0 +1,111 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Input": {
+					"type": "input",
+					"left": 108,
+					"top": 41,
+					"width": 241,
+					"height": 17,
+					"dataSource": "Form:C1466.text"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 108,
+					"top": 81,
+					"width": 241,
+					"height": 17,
+					"dataSource": "Form:C1466.text1"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 108,
+					"top": 121,
+					"width": 241,
+					"height": 17,
+					"placeholder": "リスト設定アリ",
+					"dataSource": "Form:C1466.text2",
+					"events": [
+						"onGettingFocus"
+					],
+					"method": "ObjectMethods/Input2.4dm"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 108,
+					"top": 161,
+					"width": 241,
+					"height": 17,
+					"dataSource": "Form:C1466.text3"
+				},
+				"Button": {
+					"type": "button",
+					"text": "OK",
+					"top": 274,
+					"left": 392,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "accept"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "CANCEL",
+					"top": 274,
+					"left": 286,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				}
+			}
+		}
+	],
+	"geometryStamp": 33,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

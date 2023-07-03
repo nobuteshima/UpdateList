@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"フォーム1": {
+			"timeStamp": "2023-06-28T05:23:58.821Z",
+			"destination": "detailScreen"
+		},
+		"UDL_更新可能リスト": {
+			"timeStamp": "2022-08-19T04:25:16.000Z",
+			"destination": "detailScreen"
+		},
+		"UDL_選択リスト": {
+			"timeStamp": "2022-08-18T06:59:18.000Z",
+			"destination": "detailScreen"
+		}
+	}
+}
